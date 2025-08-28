@@ -1,0 +1,58 @@
+
+@import "tailwindcss";
+
+body {
+
+font-family: joan;
+
+}
+
+
+.img1 {
+
+width: 200px;
+height: 150px;
+
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img2{
+
+
+    
+}
+
+button{
+
+border: none;
+border-radius: 20px;
+background-color:#DFC58B ;
+cursor: pointer;
+padding: 10px;
+margin: 20px;
+transition: ease-in-out;
+transition-duration: 5s;
+transition-property: left;
+
+
+}
+
+button:hover{
+
+    border: none;
+    border-radius: 20px;
+    background-color:#bba575 ;
+
+    cursor: pointer;
+    
+    
+    }
+
+@media
